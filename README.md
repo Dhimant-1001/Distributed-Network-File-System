@@ -1,10 +1,10 @@
-# Network File System (NFS) Implementation
+# Distributed Network File System
 
 A distributed file system implementation in C that allows multiple clients to access files stored across multiple storage servers through a centralized naming server.
 
 ## 🎯 Project Overview
 
-This NFS implementation consists of three main components:
+This distributed network file system consists of three main components:
 - **Naming Server**: Central coordinator that manages file location mapping and client-server communication
 - **Storage Servers**: Handle actual file storage, retrieval, and operations
 - **Clients**: User interfaces for file operations like read, write, create, delete, and stream
